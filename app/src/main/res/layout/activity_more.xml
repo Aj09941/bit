@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coin06.mine.nbit.MoreActivity">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_marginTop="13dp"
+        android:text="Rate 5 the app and Get 10.000 KH/S "
+        android:textColor="#232323"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="14dp"
+        android:text="Share the app and Get 10.000 KH/S"
+        android:textColor="#232323"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape"
+        android:text="SHARE" />
+<LinearLayout
+    android:id="@+id/ooo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+  android:layout_margin="10dp"
+    android:layout_below="@+id/btnShare">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Watch Video ads and get more KH/s"
+        android:textColor="#232323"
+        android:textSize="16dp" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ooo"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="6000" />
+        <Button
+            android:id="@+id/btnFa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="6500" />
+        <Button
+            android:id="@+id/btnFaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="7000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lllo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lll"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="7500" />
+        <Button
+            android:id="@+id/btnAa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="8000" />
+        <Button
+            android:id="@+id/btnAaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="8500" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lllj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lllo"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="9000" />
+        <Button
+            android:id="@+id/btnBa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="9500" />
+        <Button
+            android:id="@+id/btnBaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="10000" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lllk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lllj"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="10500" />
+        <Button
+            android:id="@+id/btnCa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="11000" />
+        <Button
+            android:id="@+id/btnCaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView7"
+            android:background="@drawable/shape"
+            android:text="11500" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7584874423919070/5114769159">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

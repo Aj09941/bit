@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coin06.mine.nbit.HowActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="56dp"
+        android:textColor="#0f0ff0"
+        android:textSize="24dp"
+        android:text="how it work :" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="we are using a special Bitcoin Cloud
+hashing algorithm created by us.
+when you click the spin button the
+hashing start by 250 KH/s,
+So to generate more bitcoin you have to get more spins.\n
+**calculate**\n
+-35,000,000 KH/s = 00000100 BTC\n
+-Don't be mad with the ads we used the revenue of it to pay you.
+" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7584874423919070/5114769159">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

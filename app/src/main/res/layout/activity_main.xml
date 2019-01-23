@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.coin06.mine.nbit.MainActivity">
+<LinearLayout
+    android:layout_margin="50dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0f0ff0"
+        android:textStyle="bold"
+        android:text="BITCOIN MINER "
+        android:textSize="36dp"
+        android:layout_marginBottom="50dp"
+
+        />
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:text="Start earning"
+        />
+
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btnMore"
+        android:layout_alignStart="@+id/btnMore"
+        android:layout_below="@+id/btnMore"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:text="Withdraw" />
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/btnPlay"
+        android:layout_alignStart="@+id/btnPlay"
+        android:layout_below="@+id/btnPlay"
+        android:text="get more coins" />
+    <Button
+        android:id="@+id/btnHow"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/btnPlay"
+        android:layout_alignStart="@+id/btnPlay"
+        android:layout_below="@+id/btnPlay"
+
+        android:text="How it Work " />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/btnPlay"
+        android:layout_alignStart="@+id/btnPlay"
+        android:layout_below="@+id/btnPlay"
+
+        android:text="log out " />
+</LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7584874423919070/5114769159">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

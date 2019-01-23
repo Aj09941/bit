@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coin06.mine.nbit.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imgLog"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fitsSystemWindows="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/pbit" />
+    <TextView
+        android:id="@+id/textBitcoinMiner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        android:textColor="#0f0ff0"
+        android:text="BITCOIN MINEING"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <ProgressBar
+
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:progressDrawable="@drawable/circle" />
+
+</RelativeLayout>

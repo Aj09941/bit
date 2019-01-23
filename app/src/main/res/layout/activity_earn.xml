@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coin06.mine.nbit.EarnActivity">
+
+    <View
+        android:saveEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shaptwo"
+        android:visibility="visible"
+
+        />
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:textColor="#000"
+        android:text="mBTC :" />
+
+
+    <TextView
+        android:id="@+id/txtBtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:visibility="visible"
+        android:textColor="#000" />
+
+
+    <ImageView
+        android:id="@+id/imageSpin"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/spinner" />
+
+    <Button
+        android:id="@+id/btnSpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSpin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape"
+        android:text="SPIN" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/btnSpin"
+        android:layout_marginTop="32dp"
+        android:textColor="#000"
+        android:text="BTC :" />
+
+    <TextView
+        android:id="@+id/textValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textV"
+        android:layout_alignBottom="@+id/textV"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:text=""
+        android:visibility="visible"
+        android:textColor="#000" />
+<LinearLayout
+    android:layout_margin="10dp"
+    android:id="@+id/FirstLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/textValue">
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:text="1000" />
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/shape"
+        android:text="1500" />
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/shape"
+        android:text="2000" />
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/shape"
+        android:text="2500" />
+    <Button
+    android:id="@+id/btnFive"
+    android:layout_width="65dp"
+    android:layout_height="50dp"
+        android:layout_marginLeft="2dp"
+    android:background="@drawable/shape"
+    android:text="3000" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_below="@+id/FirstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnSix"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:background="@drawable/shape"
+            android:text="3500" />
+        <Button
+            android:id="@+id/btnSeven"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/shape"
+            android:text="4000" />
+        <Button
+            android:id="@+id/btnEight"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/shape"
+            android:text="4500" />
+        <Button
+            android:id="@+id/btnNine"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/shape"
+            android:text="5000" />
+        <Button
+            android:id="@+id/btnTen"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/shape"
+            android:text="5500" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7584874423919070/5114769159">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
